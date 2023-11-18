@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #C4F2BD;
+}
+
+.header-section{
+    background-color: #D97941;
+    text-align: center;
+    line-height: 40px;
+}
+
+h1{
+    background-color: #1DBF04;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.nav{
+    background-color: #C4F2BD;
+    text-align: center;    
+    border-bottom-style: ridge;    
+}
+
+.site-logo{
+    width: 20%;
+    display: inline-block;
+}
+
+nav ul{ /*puede ser tambien con el nombre de la clase .site-nav*/
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+}
+
+a{
+    color: #D97941;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover{ /*al colocar apuntador sobre una opcion del menu nav cambia de color*/
+    color: #1DBF04;
+}
+
+.logo-log_out{
+    width: 20px;
+    height: 20px;
+}
+
+main{
+    text-align: center; 
+}
+
+.sections{
+    display: inline-flex;
+    margin-bottom: 40px;      
+}
+
+.section-title{
+    color: #1DBF04;
+    -webkit-text-stroke: 0.5px black;
+    line-height: 60px;       
+}
+
+.section-info_imagen{
+    width: 170px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.section-info_imagen1{
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+footer{
+    background-color: #1DBF04;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+form{
+    position : relative;
+    width  : 500px;
+    height : 340px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    
+}
+
+.loguin_logo{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+
+}
+
+#user_type{
+    display: block;
+    margin: auto;
+    background-color: #6DA644;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+}
+
+form ul{
+    text-align: center;
+    
+
+}
+
+form ul li{
+    display: block;
+    margin: 80px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+label{
+    display: block;
+    color: #D97941;
+}
+
+
+hr{
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+}
+
+button{
+    background-color: #D97941;
+    width: 190px;
+    height: 30px;
+}
+
+input{
+    background-color: #F2F2F2;
+    width: 190px;
+    height: 30px;    
+}
+
+h6{
+    color: #1DBF04;
+}
+
+
+
+
+
+.logo_barcode{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.form_scanner{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Barcode{
+    width: 400px;
+    height: 50px;
+}
+
+
+
+.buton_barcode{
+    font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+	color: black; background-color: #F2F2F2;
+	border: 2px solid #1DBF04;
+	border-top: 2px solid #1DBF04;
+	border-left: 2px solid #1DBF04;
+	cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+}
